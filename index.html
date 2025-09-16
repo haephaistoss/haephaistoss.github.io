@@ -1,10 +1,140 @@
 <!DOCTYPE html>
-<html>
+<html lang="hu">
 <head>
-  <title>Haephaistoss Oldala</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Vállalkozások Programja</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      background: #f7f9fa;
+      margin: 0;
+      color: #222;
+    }
+    header {
+      background: #1d1d1d;
+      color: #fff;
+      padding: 1.5rem 0 1rem 0;
+      text-align: center;
+      position: relative;
+    }
+    .mvplogo {
+      height: 60px;
+      vertical-align: middle;
+      margin-bottom: 0.5rem;
+      background: transparent;
+      border-radius: 0;
+      box-shadow: none;
+      padding: 0;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav span {
+      font-size: 1.3rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      padding: 2rem;
+    }
+    .section-title {
+      color: #0057b8;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+    }
+    .product-details {
+      margin-bottom: 2rem;
+    }
+    .product-details table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 0.5rem;
+    }
+    .product-details th, .product-details td {
+      text-align: left;
+      padding: 0.5rem 0.7rem;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .references {
+      margin-bottom: 2rem;
+    }
+    .references ul {
+      padding-left: 1.2rem;
+    }
+    .disclaimer {
+      background: #eaf4ff;
+      border-left: 4px solid #0057b8;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      font-size: 1rem;
+    }
+    .register-link {
+      display: inline-block;
+      background: #0057b8;
+      color: #fff;
+      padding: 0.7rem 1.3rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 700;
+      margin-top: 0.5rem;
+      transition: background 0.2s;
+    }
+    .register-link:hover {
+      background: #003e87;
+    }
+    @media (max-width: 600px) {
+      main { padding: 1rem; }
+      header img { height: 40px; }
+    }
+  </style>
 </head>
 <body>
-  <h1>Üdvözöllek Dicső Lovag! Szép a ruhád, de hol a lovad?</h1>
-  <p>Szépen lassan feledésbe merülünk...</p>
+  <header>
+    <a href="https://www.vallalkozzdigitalisan.hu" target="_blank" title="Modern Vállalkozások Programja">
+      <img src="logo.png" alt="Modern Vállalkozások Programja logó" class="mvplogo">
+    </a>
+    <nav>
+      <span>Modern Vállalkozások Programja</span>
+    </nav>
+  </header>
+  <main>
+    <section class="product-details">
+      <div class="section-title">Termék/Szolgáltatás felelős</div>
+            <p><strong>Név:</strong> Nagy Alex EV<br>
+            <strong>Email:</strong> alexnagyoffice@gmail.com<br>
+            <strong>Telefon:</strong> +36 30 662 5391</p>
+
+      <div class="section-title">Termék/Szolgáltatás adatai</div>
+      <table>
+        <tr><th>Kód / Rövid név</th><td>LEADGEN-001</td></tr>
+        <tr><th>Teljes név</th><td>Lead generáló PWA / SWA és adatbázis (frontend + backend)</td></tr>
+        <tr><th>Leírás</th><td>Testreszabott, modern weboldal és kapcsolódó adatbázis, valamint komplex kalkulátor alkalmazás, amely hatékonyan támogatja az online lead generálást. A megoldás tartalmaz frontend és backend fejlesztést, valamint integrációs lehetőségeket későbbi projektekbe.</td></tr>
+        <tr><th>Hasznosítási terület</th><td>Online marketing, értékesítés, ügyfélkapcsolat-kezelés, tőkeáramlás modellezése</td></tr>
+        <tr><th>Célcsoport</th><td>Kis- és középvállalkozások, startupok, szolgáltatók</td></tr>
+        <tr><th>Ár</th><td>19 990 Ft / óra</td></tr>
+      </table>
+    </section>
+
+    <section class="references">
+      <div class="section-title">Referenciák</div>
+      <ul>
+        <li>Nabucodonosor Solutions Kft. – 2025-ben vezették be a rendszert, jelentős adminisztráció-csökkenés.</li>
+        <li>Next Invest Kft – beáramló megkeresések 40%-os növekedése egy hónap alatt.</li>
+        <li>Prémium Mentor Kft– Az egy főre jutó leadek száma 25%-kal nőtt az új rendszer bevezetésével.</li>
+      </ul>
+    </section>
+
+    
+  </main>
 </body>
 </html>
