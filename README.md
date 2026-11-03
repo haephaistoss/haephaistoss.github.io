@@ -14,7 +14,9 @@ Personal site and project notes of **Haephaistoss**. I've been writing code arou
 ## Core Focus Areas
 
 - **The Burning Crusade (2.4.3) & Wrath of the Lich King (3.3.5a):** The twin golden eras of MMORPG class design, combat math, and competitive arena.
-- **Combat Mechanics & Spell Notes:** Deep personal archive detailing spell batching delays, diminishing returns, proc coefficients, and aura stacking interactions across 2.4.3 and 3.3.5a. Having competed up to 2822 arena rating in Season 6 and hosted community tournaments, I occasionally consult with private server teams on debugging combat formulas, spell interaction faults, and core stability.
+- **Combat Mechanics & Spell Notes:** Deep personal archive detailing spell batching windows, diminishing returns, proc coefficients, and aura stacking interactions across 2.4.3 and 3.3.5a.
+- **High-End Gameplay Background:** Having achieved multiple **Realm Firsts in PvE**, earned **Rank 1 in arena** (peaking at 2822 rating in Season 6), and logged over **10,000 lifetime duels with a >94% win rate**, practical experience at the highest levels directly informs my understanding of how spells and talents must function in live gameplay.
+- **Consulting & Tournament Systems:** Consulted with private server teams on debugging combat formulas, elusive spell interaction faults, and core optimization. Hosted community arena tournaments with custom spectator and tournament realm scripting.
 
 ---
 
