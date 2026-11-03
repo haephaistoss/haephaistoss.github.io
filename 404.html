@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lost in Northrend · 404</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚔️</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Plus+Jakarta+Sans:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: radial-gradient(circle at 50% 30%, #0e1726 0%, #060910 60%, #020407 100%);
+      color: #f1f5f9;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 24px;
+      margin: 0;
+    }
+    .box {
+      background: #0d1522;
+      border: 1px solid #c59b27;
+      border-radius: 12px;
+      padding: 48px 36px;
+      max-width: 520px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8), 0 0 20px rgba(56, 189, 248, 0.15);
+    }
+    h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 56px;
+      color: #ffd100;
+      margin-bottom: 12px;
+    }
+    h2 {
+      font-family: 'Cinzel', serif;
+      font-size: 24px;
+      color: #e0f2fe;
+      margin-bottom: 16px;
+    }
+    p {
+      color: #94a3b8;
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 28px;
+    }
+    a.btn {
+      display: inline-block;
+      background: linear-gradient(180deg, #8a1313 0%, #420808 100%);
+      border: 1px solid #c59b27;
+      color: #ffebaa;
+      font-family: 'Cinzel', serif;
+      font-weight: 700;
+      padding: 12px 28px;
+      border-radius: 6px;
+      text-decoration: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+      transition: all 0.2s;
+    }
+    a.btn:hover {
+      background: linear-gradient(180deg, #aa1919 0%, #580c0c 100%);
+      color: #fff;
+      transform: translateY(-2px);
+    }
+  </style>
+  <script>
+    // If the user accessed /haephaistoss or similar path, gracefully handle routing
+    const path = window.location.pathname;
+    if (path.includes("haephaistoss")) {
+      window.location.replace("/haephaistoss/");
+    }
+  </script>
+</head>
+<body>
+  <div class="box">
+    <h1>404</h1>
+    <h2>Lost in the Howling Fjord</h2>
+    <p>The icy winds of Northrend have buried this path under the snow. Take the portal back to safety.</p>
+    <a href="/" class="btn">⚔️ Return to Dalaran Portal</a>
+  </div>
+</body>
+</html>
